@@ -14,8 +14,8 @@ let package = Package(
     targets: [
       .binaryTarget(
         name: "AdQuality",
-        url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adqualitysdk/main/9.4.0/IronSourceAdQualitySDK-ios-v9.4.0.zip",
-        checksum: "7ebb23b7615c00a5d24a378e0422f62babdb5caa3b10cad6783fdac41dd4f8e7"
+        url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adqualitysdk/main/9.5.0/IronSourceAdQualitySDK-ios-v9.5.0.zip",
+        checksum: "8342ea654c6fe53d9d655a235192df6eb35457fcee6e63e6cd25b93a889c5681"
       )
     ]
 )
