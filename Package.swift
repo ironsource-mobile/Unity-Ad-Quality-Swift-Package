@@ -1,11 +1,11 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "Unity-Ad-Quality-Swift-Package",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AdQuality",
