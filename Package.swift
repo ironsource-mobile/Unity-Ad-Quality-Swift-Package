@@ -9,13 +9,19 @@ let package = Package(
     products: [
         .library(
             name: "AdQuality",
-            targets: ["AdQuality"]),
+            targets: ["AdQuality", "AdQualityPrivacy"]),
     ],
     targets: [
       .binaryTarget(
         name: "AdQuality",
         url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adqualitysdk/main/9.10.0/IronSourceAdQualitySDK-ios-v9.10.0.zip",
         checksum: "aaf396850fbe9b5fa9f07a8dc3097da35c2e88c9b34c73ab075acc853ba65df7"
+      ),
+      // The binary is a static library, which can't carry resources; this target ships its privacy manifest.
+      .target(
+        name: "AdQualityPrivacy",
+        path: "Sources/AdQualityPrivacy",
+        resources: [.copy("PrivacyInfo.xcprivacy")]
       )
     ]
 )
