@@ -21,7 +21,7 @@ let package = Package(
       .target(
         name: "AdQualityPrivacy",
         path: "Sources/AdQualityPrivacy",
-        resources: [.copy("PrivacyInfo.xcprivacy")]
+        resources: [.process("PrivacyInfo.xcprivacy")]
       )
     ]
 )
