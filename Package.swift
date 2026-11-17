@@ -13,8 +13,8 @@ let package = Package(
     targets: [
       .binaryTarget(
         name: "AdQuality",
-        url: "https://raw.githubusercontent.com/ironsource-mobile/ios-adqualitysdk/main/9.12.0/IronSourceAdQualitySDK-ios-v9.12.0.zip",
-        checksum: "63b896af4b220be03393ca1730107ff1a4fb96906d4900c437a3120cee1de728"
+        url: "https://raw.githubusercontent.com/ironsource-mobile/ios-adqualitysdk/main/9.12.1/IronSourceAdQualitySDK-ios-v9.12.1.zip",
+        checksum: "6c7f2baadb76dff39e085daddb5dad3cd5cf33e6daf791f5c92875810a7cb288"
       ),
       .target(
         name: "AdQualityPrivacy",
